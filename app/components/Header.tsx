@@ -9,6 +9,7 @@ export default function Header() {
   
   const navigation = [
     { name: "Accueil", href: "/" },
+    { name: "Solutions Web", href: "/solutions-web" },
     { name: "Services", href: "/services" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Blog", href: "/blog" },
@@ -26,7 +27,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              DevFreelance
+              Cleveko
             </Link>
           </div>
           
